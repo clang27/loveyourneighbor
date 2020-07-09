@@ -1,5 +1,7 @@
-FROM httpd:2.4
-MAINTAINER Clang
-COPY ./index.html /usr/local/apache2/htdocs/
-COPY ./httpd.conf /usr/local/apache2/conf/httpd.conf
-EXPOSE 80
+FROM node:12
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 8080
+CMD [ "node", "server.js" ]
