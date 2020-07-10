@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DESKTOP_PORT=1276
-IMAGE_NAME="loveyourneighbor"
+IMAGE_NAME="lyn"
 TAG="v0"
 
 sudo docker stop $IMAGE_NAME &> /dev/null && sudo docker rm $IMAGE_NAME &> /dev/null
