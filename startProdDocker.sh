@@ -2,7 +2,7 @@
 
 DESKTOP_PORT=1276
 IMAGE_NAME="lyn"
-TAG="v0"
+TAG="0.0.2"
 
 sudo docker stop $IMAGE_NAME &> /dev/null && sudo docker rm $IMAGE_NAME &> /dev/null
 

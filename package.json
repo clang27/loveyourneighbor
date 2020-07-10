@@ -1,6 +1,6 @@
 {
   "name": "loveyourneighbor_web_app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js Docker Image",
   "author": "Collin Lang <collinlang0@gmail.com>",
   "main": "server.js",
