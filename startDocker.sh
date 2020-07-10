@@ -16,6 +16,6 @@ sudo docker run \
     -v ${PWD}:/usr/src/app \
     -v /usr/src/app/node_modules \
     --name $IMAGE_NAME \
-    -p $DESKTOP_PORT:8080 \
+    -p $DESKTOP_PORT:80 \
     -e CHOKIDAR_USEPOLLING=true \
     $IMAGE_NAME:$TAG
